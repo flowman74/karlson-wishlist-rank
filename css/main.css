@@ -1,0 +1,82 @@
+/* thicc font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #18191a;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #436cce;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+.rank-is {
+  font-size: 3em;
+}
+
+.rank {
+  font-size: 16em;
+}
+
+.faq {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.faq__item {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid white;
+}
+
+.faq__question {
+  font-size: 1.5em;
+}
+
+.faq__items::before {
+  content: 'FAQ:';
+  font-size: 2em;
+}
+
+.faq__content {
+  display: none;
+  font-size: 1.75em;
+}
+
+footer {
+  margin-top: 1em;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.visible {
+  display: block;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    width: 90%;
+  }
+}
